@@ -42,7 +42,7 @@ const Navbar = () => {
       </div>
 
       {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-[11vh] left-0 w-full h-40 bg-gray-800 text-gray-500">
+        <ul className="flex flex-col justify-center items-center absolute top-[14vh]   left-0 w-full h-40 bg-gray-800 text-gray-500">
           <li className="px-4 cursor-pointer capitalize py-2 text-xl  text-gray-400">
             <Link onClick={() => setNav(!nav)} href={"/home"}>
               Home
