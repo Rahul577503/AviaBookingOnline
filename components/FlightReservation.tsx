@@ -7,7 +7,7 @@ const FlightReservation = () => {
   const [videoError, setVideoError] = useState(false);
 
   return (
-    <main className={`relative flex justify-center items-center min-h-screen ${videoError ? 'bg-gray-900 text-white' : ''}`}>
+    <main className={`relative flex justify-center items-center min-h-screen ${videoError ? 'bg-gray-800 text-white' : ''}`}>
       {!videoError && (
         <video
           className="absolute inset-0 w-full h-full object-cover z-0"
@@ -20,11 +20,6 @@ const FlightReservation = () => {
           <source src={require("../public/video.mp4")} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-      )}
-      {videoError && (
-        <div className="absolute inset-0 bg-gray-900 text-white flex justify-center items-center">
-          
-        </div>
       )}
       {!videoError && (
         <div className="flex flex-col items-center z-10 gap-2">
