@@ -14,6 +14,7 @@ const FlightReservation = () => {
         autoPlay
         muted
         loop
+        playsInline
         onError={() => setTextColor("text-gray-900")}
       />
       <div className="flex flex-col items-center z-10 gap-2">
