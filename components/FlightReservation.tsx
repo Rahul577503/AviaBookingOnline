@@ -10,16 +10,19 @@ const FlightReservation = () => {
     <main className="relative flex justify-center items-center min-h-screen">
       <video
         className="absolute inset-0 w-full h-full object-cover z-0"
-        src={require("../public/video.mp4")}
         autoPlay
         muted
         loop
         playsInline
         onError={() => setTextColor("text-gray-900")}
-      />
+      >
+        <source  src={require("../public/video.mp4")} type="video/mp4" />
+      </video>
       <div className="flex flex-col items-center z-10 gap-2">
         <div className="max-w-4xl text-center tracking-tight">
-          <h1 className={`text-2xl md:text-3xl lg:text-4xl leading-tight ${textColor}`}>
+          <h1
+            className={`text-2xl md:text-3xl lg:text-4xl leading-tight ${textColor}`}
+          >
             <span>Fly Smart </span>
             <GiCommercialAirplane className="inline-block text-amber-500 text-xl md:text-3xl lg:text-4xl align-middle" />
             <span>Unlock Hidden Flight Deals</span>
