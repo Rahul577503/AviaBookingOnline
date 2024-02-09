@@ -31,7 +31,7 @@ const FlightReservation = () => {
             <span>Dial Direct for Instant Access,</span>
             <span>No Waiting!</span>
           </h1>
-          <button className="mt-8 bg-red-800 text-lg hover:bg-rose-800 text-white font-semibold py-3 px-6 rounded inline-flex items-center">
+          <button className="mt-8 bg-amber-500 text-lg hover:bg-amber-400 text-white font-semibold py-3 px-6 rounded inline-flex items-center">
             Send Mail
             <TbSend className="ml-2" />
           </button>
