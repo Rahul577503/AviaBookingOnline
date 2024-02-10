@@ -14,9 +14,10 @@ const HeroSection = () => {
       <div className="w-full h-full">
         <FlightReservation />
       </div>
-      <div className="bg-gray-800">
+      <div className="bg-gray-800 w-full">
         <InfiniteHorizontalScroll />
       </div>
+
       <div className="py-6 px-4">
         <CardComponents />
       </div>

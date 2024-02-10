@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 import FlightForm from "./FlightForm";
 import { GiCommercialAirplane } from "react-icons/gi";
-import { TbSend } from "react-icons/tb";
 import Link from "next/link";
+import InfiniteHorizontalScroll from "./InfiniteHorizontalScroll";
 
 const FlightReservation = () => {
   const [videoLoaded, setVideoLoaded] = useState(false);
 
   return (
     <main
-      className={`relative flex justify-center items-center min-h-screen ${
+      className={`relative flex justify-center items-center min-h-screen  ${
         videoLoaded ? "" : "bg-gray-800 text-white"
       }`}
     >
@@ -39,7 +39,7 @@ const FlightReservation = () => {
             <br />
             <span className="block">
               Exclusive Offers Await: Dial Direct for Instant Access,{" "}
-              <div className="lg:text-sm">
+              <div className="lg:text-sm py-4">
                 <Link
                   href="tel:12345678900"
                   className="border-amber-500 text-2xl border-2 p-1 rounded-md hover:text-red-500"

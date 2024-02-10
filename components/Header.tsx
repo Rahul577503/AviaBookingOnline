@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="flex items-center">
         <h1 className="text-xl font-signature">
           <Link href="/" className="flex items-center">
-            AviaBookings<span className="text-amber-500">Online</span>
+            ABC<span className="text-amber-500">Online</span>
           </Link>
         </h1>
       </div>
@@ -25,7 +25,7 @@ const Navbar = () => {
         <li className="nav-links cursor-pointer capitalize font-medium text-gray-400 hover:text-amber-500">
           <Link href="/">Home</Link>
         </li>
-        <li className="nav-links cursor-pointer capitalize font-medium text-gray-400 hover:text-amber-500 gradient-border py-3">
+        <li className="nav-links cursor-pointer capitalize font-medium text-gray-400 hover:text-amber-500 gradient-border py-3 px-2">
           <Link href="tel:18778040909">Toll Free: 1877-804-0909</Link>
         </li>
       </ul>
