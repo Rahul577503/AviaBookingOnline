@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Header";
 import Footer from "@/components/Footer";
-const poppins = Poppins({ subsets: ["latin"], weight: ["400", "700"] });
+const roboto = Roboto({ subsets: ["latin"], weight: ["400", "700"] });
 
 export const metadata: Metadata = {
   title: "AviaBookOnline",
@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.className} bg-gray-100 dark:bg-medium overflow-x-hidden`}>
+      <body className={`${roboto.className} fontFamily bg-gray-100 dark:bg-medium overflow-x-hidden`}>
         <Navbar />
         {children}
         <Footer/>

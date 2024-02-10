@@ -3,7 +3,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { termsOfService } from "@/constants/termsOfService";
 const Privacy = () => {
   return (
-    <div className="container mx-auto py-20">
+    <div className="container mx-auto py-20 px-4">
       <div className="mt-10">
         {termsOfService.descriptions.map((description, index) => (
           <div key={index} className="mb-6">

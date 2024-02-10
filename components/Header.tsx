@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React, { useState } from "react";
 import Link from "next/link";
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -11,14 +11,12 @@ const Navbar = () => {
       className={`flex justify-between items-center w-full h-20 px-4 bg-gray-800 text-white nav ${
         nav ? "nav-open" : ""
       }`}
-      style={{ position: 'fixed', zIndex: 100, top: 0, left: 0, right: 0 }}
+      style={{ position: "fixed", zIndex: 100, top: 0, left: 0, right: 0 }}
     >
       <div className="flex items-center">
         <h1 className="text-xl font-signature">
           <Link href="/" className="flex items-center">
-           
-              AviaBookings<span className="text-amber-500">Online</span>
-            
+            AviaBookings<span className="text-amber-500">Online</span>
           </Link>
         </h1>
       </div>
@@ -46,9 +44,9 @@ const Navbar = () => {
               Home
             </Link>
           </li>
-          <li className="cursor-pointer capitalize py-2 text-xl text-gray-400 hover:text-amber-500 border px-2 rounded-lg border-white">
+          <li className="cursor-pointer capitalize py-2 text-xl text-gray-400 hover:text-amber-500 border px-4 rounded-lg border-white">
             <Link onClick={() => setNav(!nav)} href="tel:18778040909">
-              Toll Free: 1877-804-0909
+              Toll Free: 1234-567-8900
             </Link>
           </li>
         </ul>

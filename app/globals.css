@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 .gradient-border {
   --border-width: 3px;
   position: relative;

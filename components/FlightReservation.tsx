@@ -24,13 +24,12 @@ const FlightReservation = () => {
         onLoadedData={() => setVideoLoaded(true)}
       >
         <source src={require("../public/video.mp4")} type="video/mp4" />
-        Your browser does not support the video tag.
       </video>
 
-      <div className="flex flex-col items-center z-10 gap-2">
+      <div className="flex flex-col items-center z-10 gap-6">
         <div className="max-w-4xl text-center tracking-tight">
           <h1
-            className={`text-2xl md:text-3xl text-white lg:text-4xl leading-tight ${
+            className={`text-2xl font-extralight md:text-3xl text-white lg:text-4xl tracking-wide leading-8 md:leading-10 lg:leading-12 md:tracking-normal lg:tracking-wide ${
               videoLoaded ? "" : "text-white"
             }`}
           >
@@ -38,17 +37,20 @@ const FlightReservation = () => {
             <GiCommercialAirplane className="inline-block text-amber-500 text-xl md:text-3xl lg:text-4xl align-middle" />
             <span>Unlock Hidden Flight Deals</span>
             <br />
-            <span>Exclusive Offers Await:</span>
-            <span>Dial Direct for Instant Access,</span>
-            <span>No Waiting!</span>
+            <span className="block">
+              Exclusive Offers Await: Dial Direct for Instant Access,{" "}
+              <div className="lg:text-sm">
+                <Link
+                  href="tel:12345678900"
+                  className="border-amber-500 text-2xl border-2 p-1 rounded-md hover:text-red-500"
+                >
+                  Toll Free:1234-567-8900
+                </Link>
+              </div>
+            </span>
           </h1>
-          <button className="mt-8 bg-amber-500 text-lg hover:bg-amber-400 text-white font-semibold py-3 px-6 rounded inline-flex items-center">
-            <Link href="mailto:aviaBookingOnline.support@gmail.com">Send Mail</Link>
-
-            <TbSend className="ml-2" />
-          </button>
         </div>
-        <div className="md:mt-6 lg:mb-20 ">
+        <div className="md:mt-4 lg:mb-8">
           <FlightForm />
         </div>
       </div>

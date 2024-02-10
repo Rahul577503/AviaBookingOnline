@@ -9,7 +9,7 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ title, content, icon }) => {
   return (
-    <div className="max-w-md bg-white shadow-lg rounded-lg overflow-hidden min-h-10 p-4">
+    <div className="max-w-md bg-white shadow-lg rounded-lg overflow-hidden min-h-12 p-4">
     <div className="p-4">
       <div className="flex items-center justify-center mb-2">
         <div className="bg-gray-200 rounded-full p-3">

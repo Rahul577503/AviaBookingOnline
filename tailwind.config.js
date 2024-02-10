@@ -36,6 +36,9 @@ module.exports = {
         widest: ".1em",
         widest: ".25em",
       },
+      fontFamily: {
+        'custom': ['Roboto', 'system-ui', 'sans-serif'], 
+      },
     },
   },
   plugins: [],
