@@ -3,9 +3,9 @@ import { IPolicy } from "@/interfaces/common";
 export const FaqData: IPolicy = {
   descriptions: [
     {
-      title: "How do I book a flight on AviaBookingOnline?",
+      title: "How do I book a flight on ABCOnline?",
       content:
-        "To book a flight on AviaBookingOnline, simply enter your travel details including destination, dates, and number of passengers in the search form on our homepage. Once you've found a suitable flight, follow the prompts to complete your booking securely.",
+        "To book a flight on ABCOnline, simply enter your travel details including destination, dates, and number of passengers in the search form on our homepage. Once you've found a suitable flight, follow the prompts to complete your booking securely.",
     },
     {
       title: "What payment methods are accepted?",
@@ -28,9 +28,9 @@ export const FaqData: IPolicy = {
         "If you need to cancel your flight, please contact our customer support team as soon as possible. Please note that cancellation policies vary depending on the fare type and airline, and cancellation fees may apply.",
     },
     {
-      title: "Is it safe to book flights through AviaBookingOnline?",
+      title: "Is it safe to book flights through ABCOnline?",
       content:
-        "Yes, AviaBookingOnline prioritizes the security and privacy of our customers' information. We use industry-standard encryption and security measures to ensure that your personal and payment details are protected during the booking process.",
+        "Yes, ABCOnline prioritizes the security and privacy of our customers' information. We use industry-standard encryption and security measures to ensure that your personal and payment details are protected during the booking process.",
     },
     {
       title: "Are there any additional fees or charges I should be aware of?",

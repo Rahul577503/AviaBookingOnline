@@ -2,9 +2,9 @@ import { IPolicy } from "@/interfaces/common";
 export const privacyPolicy:IPolicy = {
   descriptions: [
     {
-      title: "Privacy Policy For AviaBookingOnline",
+      title: "Privacy Policy For ABCOnline",
       content:
-        "At AviaBookingOnline, accessible from http://AviaBookingOnline.com/, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by AviaBookingOnline and how we use it If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in AviaBookingOnline. This policy is not applicable to any information collected offline or via channels other than this website.",
+        "At ABCOnline, accessible from http://ABCOnline.com/, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by ABCOnline and how we use it If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in ABCOnline. This policy is not applicable to any information collected offline or via channels other than this website.",
     },
     {
       title: "Consent",
@@ -57,7 +57,7 @@ export const privacyPolicy:IPolicy = {
     },
     {
         title:"Contact Us",
-        content:"109-555 Foster Ave CoquitlamBC V3J 0B6  Vancouver Canada"
+        content:"123 4567 8900 Delhi,India"
     }
   ],
 };

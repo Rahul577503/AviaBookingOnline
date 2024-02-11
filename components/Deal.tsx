@@ -30,7 +30,7 @@ const Deal = () => {
             COME SEE WHAT YOU HAVE BEEN MISSING
           </h2>
           <p className="text-lg">
-            Services At flightreservationsdesk.com our mission is to help
+            Services At ABCOnline.com our mission is to help
             domestic and international travelers to book flights and make
             changes and cancellations at discounted rates.
           </p>
