@@ -47,7 +47,7 @@ const Footer = () => {
 
       <div className="text-center mt-8">
         <p>
-          &copy; {new Date().getFullYear()} AviaBookingOnline. All rights
+          &copy; {new Date().getFullYear()} ABCOnline. All rights
           reserved.
         </p>
       </div>
