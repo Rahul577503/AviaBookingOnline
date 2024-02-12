@@ -23,7 +23,7 @@ const FlightForm = () => {
       ></div>
       <script
         async
-        src="https://tp.media/content?currency=usd&trs=299451&shmarker=523035&show_hotels=false&powered_by=false&locale=en&searchUrl=www.aviasales.com%2Fsearch&color_button=%23fbbf24&color_icons=%231F2937&dark=%23262626&light=%23FFFFFF&secondary=%231f2937&special=%23e2e8f0&color_focused=%23FBBF2432&border_radius=13&no_labels=true&plain=true&promo_id=7879&campaign_id=100"
+        src="https://tp.media/content?currency=usd&trs=299620&shmarker=523245&show_hotels=false&powered_by=false&locale=en&searchUrl=www.aviasales.com%2Fsearch&color_button=%23f59e0b&color_icons=%23f59e0b&dark=%231F2937&light=%23FFFFFF&secondary=%231f2937&special=%23E2E8F0&color_focused=%2332a8dd&border_radius=0&no_labels=true&plain=true&promo_id=7879&campaign_id=100"
       ></script>
     </div>
   );

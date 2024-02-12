@@ -5,7 +5,7 @@ const Deal = () => {
   useEffect(() => {
     const script = document.createElement("script");
     script.src =
-      "https://tp.media/content?currency=inr&trs=299451&shmarker=523035&destination=DEL&target_host=www.aviasales.com%2Fsearch&locale=en&limit=6&powered_by=false&primary=%230085FF&promo_id=4044&campaign_id=100";
+      "https://tp.media/content?currency=usd&trs=299451&shmarker=523035&target_host=www.aviasales.com%2Fsearch&locale=en&limit=6&powered_by=false&primary=%23f59e0b&promo_id=4044&campaign_id=100";
     script.async = true;
 
     const container = document.querySelector(".most-visited");

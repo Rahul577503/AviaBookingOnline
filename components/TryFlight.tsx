@@ -5,7 +5,7 @@ const TryFlightComponents = () => {
   useEffect(() => {
     const script = document.createElement("script");
     script.src =
-      "https://tp.media/content?currency=inr&trs=299451&shmarker=523035&searchUrl=www.aviasales.com%2Fsearch&locale=en&powered_by=false&one_way=true&only_direct=true&period=year&range=7%2C14&primary=%230C73FE&color_background=%23ffffff&dark=%23000000&light=%23FFFFFF&achieve=%2345AD35&promo_id=4041&campaign_id=100";
+      "https://tp.media/content?currency=usd&trs=299451&shmarker=523035&searchUrl=www.aviasales.com%2Fsearch&locale=en&powered_by=false&one_way=false&only_direct=false&period=year&range=7%2C14&primary=%23f59e0b&color_background=%23ffffff&dark=%23000000&light=%23FFFFFF&achieve=%2345AD35&promo_id=4041&campaign_id=100";
     script.async = true;
 
     const container = document.querySelector(".try-flight");
